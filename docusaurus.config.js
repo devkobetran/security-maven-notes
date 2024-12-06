@@ -8,15 +8,15 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Kobe Tran | Elastic Stack Notes",
-  tagline: "Elastic Stack Docs",
+  title: "Kobe Tran | Security Notes",
+  tagline: "Java Spring & NodeJS Security Docs",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://devkobetran.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/elasticstack-notes/",
+  baseUrl: "/security-notes/",
 
   // Add trailingSlash configuration
   trailingSlash: false,
@@ -24,7 +24,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "devkobetran", // Usually your GitHub org/user name.
-  projectName: "elasticstack-notes", // Usually your repo name.
+  projectName: "security-maven-notes", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -51,7 +51,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/devkobetran/elasticstack-notes",
+          editUrl: "https://github.com/devkobetran/security-maven-notes",
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +61,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/devkobetran/elasticstack-notes",
+          editUrl: "https://github.com/devkobetran/security-maven-notes",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -80,7 +80,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Kobe Tran Elastic Stack Notes",
+        title: "Kobe Tran Security Maven Notes",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -94,7 +94,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/devkobetran/elasticstack-notes",
+            href: "https://github.com/devkobetran/security-maven-notes",
             label: "GitHub",
             position: "right",
           },
@@ -121,12 +121,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/devkobetran/elasticstack-notes",
+                href: "https://github.com/devkobetran/security-maven-notes",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Kobe Tran Elastic Stack Notes. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kobe Tran Security Maven Notes. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
